@@ -1,0 +1,12 @@
+# Data (too large for git — regenerate with notebooks/01_ETL.ipynb)
+data/
+*.parquet
+cleaned_meta_spark/
+cleaned_review_spark/
+*.jar
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
