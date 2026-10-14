@@ -94,7 +94,8 @@ gs://msca-bdp-data-open/final_project_reviews   (~52 GiB raw Parquet)
 ├── figures/                       # charts exported from notebook outputs
 ├── report/
 │   └── BDCC_Final_Presentation.pdf
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
 ```
 
 ## Reproducing
@@ -113,6 +114,10 @@ To run locally, install `requirements.txt` plus a JDK, and replace the `google.c
 - LSH duplication rate is a proxy for templated or copied content, not a fraud label. Without ground truth, the post-2022 drop could also reflect changes in platform moderation or a smaller recent sample (5.3K vs. 41K reviews in the category studied).
 - The similarity analysis covers one category, as the assignment specified.
 - MinHash on bag-of-words tokens ignores word order. Short titles hit the threshold easily, which inflates title duplication.
+
+## License
+
+Code is released under the [MIT License](LICENSE). The dataset is not included and remains subject to its original terms.
 
 ---
 
